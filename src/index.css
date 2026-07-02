@@ -341,6 +341,40 @@ h1, h2, h3, h4, h5, h6 {
   background: #111;
 }
 
+/* Skill Cards New Design */
+.skill-card-new-layout {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.02);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.skill-card-title-new {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.skill-tags-new {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.skill-tag-new {
+  background: #f3f4f6;
+  color: #374151;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 /* Projects Grid */
 .projects-grid {
   display: grid;

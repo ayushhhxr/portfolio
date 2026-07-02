@@ -110,7 +110,7 @@ function App() {
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '48px', alignItems: 'flex-start' }}>
                 <motion.div variants={popUpVariants}>
                   <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', lineHeight: '1.6', maxWidth: '450px' }}>
-                    Computer Science Engineering student crafting reliable backends and thoughtful AI systems. <span style={{ color: 'var(--text-muted)' }}>Backend systems, thoughtful AI, shipped software.</span>
+                    Final-year B.Tech Computer Science student passionate about Backend Development, AI, and Full-Stack Engineering. Built scalable web applications, AI-powered solutions, and machine learning projects while gaining hands-on experience with Flask, React, Python, and SQL. Focused on building real-world software
                   </p>
                 </motion.div>
 
@@ -225,114 +225,51 @@ function App() {
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '32px' }}>
 
-              <div className="skill-card">
-                <div className="skill-card-header">
-                  <div className="skill-card-title">Languages</div>
-                  <div className="skill-card-num">01</div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">Python</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">Java</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">JavaScript</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">SQL</span></div>
+              {/* ML / AI */}
+              <div className="skill-card-new-layout">
+                <div className="skill-card-title-new">ML / AI</div>
+                <div className="skill-tags-new">
+                  <span className="skill-tag-new">PyTorch</span>
+                  <span className="skill-tag-new">TensorFlow</span>
+                  <span className="skill-tag-new">Hugging Face</span>
+                  <span className="skill-tag-new">RAG</span>
+                  <span className="skill-tag-new">Scikit-learn</span>
+                  <span className="skill-tag-new">OpenCV</span>
                 </div>
               </div>
 
-              <div className="skill-card">
-                <div className="skill-card-header">
-                  <div className="skill-card-title">Frontend</div>
-                  <div className="skill-card-num">02</div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">React</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">HTML</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">CSS</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">Tailwind</span></div>
+              {/* LANGUAGES */}
+              <div className="skill-card-new-layout">
+                <div className="skill-card-title-new">LANGUAGES</div>
+                <div className="skill-tags-new">
+                  <span className="skill-tag-new">Python</span>
+                  <span className="skill-tag-new">SQL</span>
+                  <span className="skill-tag-new">C</span>
                 </div>
               </div>
 
-              <div className="skill-card">
-                <div className="skill-card-header">
-                  <div className="skill-card-title">Backend</div>
-                  <div className="skill-card-num">03</div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">Flask</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">REST APIs</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">FastAPI</span></div>
+              {/* WEB & DEPLOYMENT */}
+              <div className="skill-card-new-layout">
+                <div className="skill-card-title-new">WEB & DEPLOYMENT</div>
+                <div className="skill-tags-new">
+                  <span className="skill-tag-new">Django & Flask</span>
+                  <span className="skill-tag-new">React & Next.js</span>
+                  <span className="skill-tag-new">Streamlit</span>
+                  <span className="skill-tag-new">REST APIs</span>
+                  <span className="skill-tag-new">Docker</span>
+                  <span className="skill-tag-new">AWS & Vercel</span>
                 </div>
               </div>
 
-              <div className="skill-card">
-                <div className="skill-card-header">
-                  <div className="skill-card-title">Databases</div>
-                  <div className="skill-card-num">04</div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">MySQL</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">PostgreSQL</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">SQLite</span></div>
-                </div>
-              </div>
-
-              <div className="skill-card">
-                <div className="skill-card-header">
-                  <div className="skill-card-title">AI / ML</div>
-                  <div className="skill-card-num">05</div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">TensorFlow</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">Scikit-learn</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">OpenCV</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">Pandas</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">NumPy</span></div>
-                </div>
-              </div>
-
-              <div className="skill-card">
-                <div className="skill-card-header">
-                  <div className="skill-card-title">Tools</div>
-                  <div className="skill-card-num">06</div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">Git</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">GitHub</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">VS Code</span></div>
-                </div>
-                <div className="skill-item">
-                  <div className="skill-info"><span className="skill-name">Postman</span></div>
+              {/* DATA & TOOLS */}
+              <div className="skill-card-new-layout">
+                <div className="skill-card-title-new">DATA & TOOLS</div>
+                <div className="skill-tags-new">
+                  <span className="skill-tag-new">PostgreSQL & MongoDB</span>
+                  <span className="skill-tag-new">Pandas & NumPy</span>
+                  <span className="skill-tag-new">GitHub Actions</span>
+                  <span className="skill-tag-new">Jupyter Notebook</span>
+                  <span className="skill-tag-new">Beautiful Soup</span>
                 </div>
               </div>
 
