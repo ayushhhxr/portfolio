@@ -310,7 +310,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-image-container-new">
-                  <img src="/public/edureach.jpg" alt="Edureach" className="project-image-new" />
+                  <img src="/edureach.jpg" alt="Edureach" className="project-image-new" />
                 </div>
                 <div className="project-content-new">
                   <p className="project-desc-new">
@@ -344,7 +344,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-image-container-new">
-                  <img src="/public/player reid.webp" alt="Player Tracking System" className="project-image-new" />
+                  <img src="/player%20reid.webp" alt="Player Tracking System" className="project-image-new" />
                 </div>
                 <div className="project-content-new">
                   <p className="project-desc-new">
@@ -374,7 +374,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-image-container-new">
-                  <img src="/public/annsetu.png" alt="Annsetu" className="project-image-new" />
+                  <img src="/annsetu.png" alt="Annsetu" className="project-image-new" />
                 </div>
                 <div className="project-content-new">
                   <p className="project-desc-new">
