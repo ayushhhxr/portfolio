@@ -88,7 +88,7 @@ function App() {
         </header>
 
         {/* Hero Section */}
-        <main style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative', padding: '60px 0 100px 0' }}>
+        <main style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative', padding: '40px 0 60px 0' }}>
 
           {/* Floating Pills removed per request */}
 
@@ -166,7 +166,7 @@ function App() {
       {/* About Section */}
       <div style={{ background: 'var(--bg-color)' }}>
         <div className="container">
-          <section id="about" className="section" style={{ paddingTop: '160px' }}>
+          <section id="about" className="section">
             <div className="split-layout">
               <div>
                 <div className="section-tag">01 &mdash; About</div>
@@ -303,6 +303,40 @@ function App() {
                 className="project-card-new"
               >
                 <div className="project-header-new">
+                  <h3 className="project-title-new">Annsetu</h3>
+                  <div className="btn-group-new">
+                    <a href="#" className="btn-site">Live Site</a>
+                    <a href="#" className="btn-github">GitHub</a>
+                  </div>
+                </div>
+                <div className="project-image-container-new">
+                  <img src="/annsetu.png" alt="Annsetu" className="project-image-new" />
+                </div>
+                <div className="project-content-new">
+                  <p className="project-desc-new">
+                    Surplus Resource Redistribution Platform. Built a full stack platform connecting corporates, NGOs, and volunteers using Flask REST API, PostgreSQL and JWT auth. Implemented dual layer multilingual support for 7 Indian languages and built a real-time donation lifecycle tracker.
+                  </p>
+                  <div className="project-tags-new">
+                    <span className="project-tag-new">Python</span>
+                    <span className="project-tag-new">HTML5</span>
+                    <span className="project-tag-new">JS</span>
+                    <span className="project-tag-new">CSS</span>
+                    <span className="project-tag-new">Flask</span>
+                    <span className="project-tag-new">PostgreSQL</span>
+                    <span className="project-tag-new">REST APIs</span>
+                    <span className="project-tag-new">Google Translate API</span>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.1 }}
+                className="project-card-new"
+              >
+                <div className="project-header-new">
                   <h3 className="project-title-new">Edureach</h3>
                   <div className="btn-group-new">
                     <a href="https://github.com/ayushhhxr/Edureach" target="_blank" rel="noopener noreferrer" className="btn-site">Live Site</a>
@@ -333,7 +367,37 @@ function App() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
-                transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.1 }}
+                transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.2 }}
+                className="project-card-new"
+              >
+                <div className="project-header-new">
+                  <h3 className="project-title-new">Aghorify</h3>
+                  <div className="btn-group-new">
+                    <a href="https://aghorify.in/" target="_blank" rel="noopener noreferrer" className="btn-site">Live Site</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" className="btn-github">GitHub</a>
+                  </div>
+                </div>
+                <div className="project-image-container-new">
+                  <img src="/aghorify.png" alt="Aghorify" className="project-image-new" />
+                </div>
+                <div className="project-content-new">
+                  <p className="project-desc-new">
+                    Modern, responsive, SEO-friendly e-commerce platform with conversion-focused design. Features payment gateway integration and WhatsApp automation. Deployed using Hostinger VPS and modern workflows.
+                  </p>
+                  <div className="project-tags-new">
+                    <span className="project-tag-new">React</span>
+                    <span className="project-tag-new">Node.js</span>
+                    <span className="project-tag-new">VPS</span>
+                    <span className="project-tag-new">Payment Gateway</span>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.3 }}
                 className="project-card-new"
               >
                 <div className="project-header-new">
@@ -359,40 +423,6 @@ function App() {
                 </div>
               </motion.div>
 
-              <motion.div
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.2 }}
-                className="project-card-new"
-              >
-                <div className="project-header-new">
-                  <h3 className="project-title-new">Annsetu</h3>
-                  <div className="btn-group-new">
-                    <a href="#" className="btn-site">Live Site</a>
-                    <a href="#" className="btn-github">GitHub</a>
-                  </div>
-                </div>
-                <div className="project-image-container-new">
-                  <img src="/annsetu.png" alt="Annsetu" className="project-image-new" />
-                </div>
-                <div className="project-content-new">
-                  <p className="project-desc-new">
-                    Surplus Resource Redistribution Platform. Built a full stack platform connecting corporates, NGOs, and volunteers using Flask REST API, PostgreSQL and JWT auth. Implemented dual layer multilingual support for 7 Indian languages and built a real-time donation lifecycle tracker.
-                  </p>
-                  <div className="project-tags-new">
-                    <span className="project-tag-new">Python</span>
-                    <span className="project-tag-new">HTML5</span>
-                    <span className="project-tag-new">JS</span>
-                    <span className="project-tag-new">CSS</span>
-                    <span className="project-tag-new">Flask</span>
-                    <span className="project-tag-new">PostgreSQL</span>
-                    <span className="project-tag-new">REST APIs</span>
-                    <span className="project-tag-new">Google Translate API</span>
-                  </div>
-                </div>
-              </motion.div>
-
             </div>
           </section>
 
@@ -404,6 +434,18 @@ function App() {
               & shown up.
             </h2>
             <div className="exp-list" style={{ marginTop: '64px' }}>
+              <div className="exp-row">
+                <div className="exp-year">2023 &mdash; Present</div>
+                <div className="exp-content">
+                  <h3 className="exp-title">Freelance Full Stack Developer <span className="exp-company">&mdash; Self-Employed</span></h3>
+                  <ul className="exp-desc" style={{ listStyleType: 'disc', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    <li>Designed and developed modern e-commerce, restaurant, jewelry, perfume store, and portfolio websites.</li>
+                    <li>Delivered responsive, SEO-friendly web applications with payment gateway integration and WhatsApp automation.</li>
+                    <li>Managed deployment and hosting of production applications using Hostinger VPS.</li>
+                  </ul>
+                </div>
+              </div>
+              
               <div className="exp-row">
                 <div className="exp-year">2026</div>
                 <div className="exp-content">
